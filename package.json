@@ -1,0 +1,22 @@
+{
+  "name": "main-site-inspired-website-development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garytate123/InspiredWebsiteDevelopment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garytate123/InspiredWebsiteDevelopment/issues"
+  },
+  "homepage": "https://github.com/garytate123/InspiredWebsiteDevelopment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
