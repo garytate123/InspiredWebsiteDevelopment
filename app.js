@@ -3,6 +3,9 @@ const express = require("express");
 const app = express();
 
 app.use(express.static("public"));
+app.use(express.static("public/images"));
+app.use(express.static("public/images/branding"));
+app.use(express.static('public/fonts'));
 
 app.get("/", function(req, res){
     res.sendFile(__dirname + "/index.html");

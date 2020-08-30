@@ -1,30 +1,11 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 /* font-family: 'Clicker Script', cursive; */
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Montserrat;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #74dde8;
-    text-decoration: none;
-}
-
-
+/* font-family: 'Barlow Semi Condensed', sans-serif; */
 
 /* Site index
 1. Navbar
-2. Intro Section
+2. Intro Section Carouseal
 3. How we work
 4. Services and Prices
 5. Blog
@@ -33,170 +14,143 @@ a:hover {
 8. Contact
 9. Footer */
 
-
-/* ===============NAVBAR=============== */
-.navbar {
-    margin: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+html {
+  scroll-behavior: smooth;
 }
 
-.nav-item {
-    padding: 0px 30px;
-    text-align: center;
+body {
+  font-family: Montserrat;
+  background-color: #74dde8;
+  padding-bottom: 0px;
 }
 
-.logo {
-    text-align: center;
-    line-height: 1;
-    margin-left: 10%;
-    margin-bottom: 0px;
-}
-    
-.logoTitle {
-    font-size: 4em;
-    margin-bottom: 0px;
-}
-    
-.logoSubTitle {
-    font-size: 1.4em;
-    margin-bottom: 0px;
-}
-
-
-/* ===============Intor section=============== */
-.intro-section {
-background-color: #74dde8;
-width: 100%;
-}
-
-.container-fluid {
-    padding: 0% 15%;
-}
-
-.ccc-title {
-    color: white;
-    text-align: center;
-    font-family: Montserrat;
-    font-weight: 800;
-    font-size: 3.7rem;
-    padding-bottom: 5%;
-}
-
-.ccc-text {
-    font-family: Clicker Script;
-    text-align: center;
-    font-size: 4rem;
-    padding-top: 20px;
-    padding-bottom: 0.5rem;
-}
-
-.text-darker {
-    color: #598085;
-}
-
-.text-highlight {
-    color: #0091a1;
-}
-
-.proPic {    
-    height: 200px;
-    width: 200px;
-    border: 7px solid transparent;
-    background: white;
-    border-radius: 50%;
-    float: left;
-}
-
-.intro {
-    font-family: Clicker Script;
-    font-size: 6rem;
-    margin-top: 10px;
-    margin-left:225px;
-    
-}
-
-
-/* ===============How We Work===============   */
-.howWeWork-section {
-    background-color: white;
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px ;
+.section {
+  margin-top: 40px;
 }
 
 .section-header {
-    font-family: Ubuntu;
-    font-weight: 600;
-    font-size: 4rem;
-    color: #0091a1;
-    text-align: center;
-    padding-bottom: 10px;
+  font-family: Barlow Semi Condensed;
+  font-weight: 900;
+  font-size:4rem;
+  color: #343a40;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
 
-.how-we-work-text-box {
-    margin: 5px auto;
-    background-color: white;
-    width: 900px;
-    height: 240px;
-    padding-bottom: 30px;
-    border: black;
-    border: solid;
-    padding: 10px;
+
+
+
+
+button {
+  size: 1vw;
 }
 
-.how-we-work-img-left {
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px;
-    width: 200px;
-    height: 200px;
+a {
+  color: white;
+  text-decoration: none;
+
 }
 
-.how-we-work-img-right {
-    border-radius: 50%;
-    float: right;
-    margin-right: 10px;
-    width: 200px;
-    height: 200px;
+a:hover {
+  color: #74dde8;
+  text-decoration: none;
 }
-    
+
+hr {
+  width: 80%;
+ 
+}
+
+/* ===============NAVBAR=============== */
+.navbar {
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.nav-item {
+  padding: 0px 8px;
+  text-align: center;
+}
+
+.logo {
+  margin-left: 5%;
+  margin-bottom: 0px;
+  width: 50%;
+  height: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+/* ===============Intro Section Carouseal=============== */
+  .carousel-indicators {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+
+
+/* ===============How I Work===============   */
+/* Center align the text within the three columns below the carousel */
+.marketing {
+  background-color: white;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.how-i-work-headings {
+  padding-top: 15px;
+}
 
 /* ===============Services and Prices===============   */
+
 .s-p-section {
-    background-color: #74dde8;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 40px;
+  background-color: #74dde8;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
-.container {
-    padding-top: 5px;
-}
-  
 .card-deck .card {
-    min-width: 220px;
+  min-width: 220px;
 }
 
 .contact-button {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
- 
+
+.display-4 {
+  color: #343a40;
+}
+
 
 /* ===============Newsletter===============   */
 .newsletter-section {
-    background-color: white;
-    width: 100%;
-    height: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
+  background-color: white;
+  width: 100%;
+  padding-bottom: 3%;
+  text-align: center;
 }
 
 .form-signin {
   width: 100%;
   max-width: 330px;
-  padding: 15px;
+  padding: 10px;
   margin: 0 auto;
 }
 
@@ -219,10 +173,10 @@ width: 100%;
 }
 
 .middle {
-    margin-bottom: -1px;
-    border-radius: 0;
-    border-radius: 0;
-  }
+  margin-bottom: -1px;
+  border-radius: 0;
+  border-radius: 0;
+}
 
 .bottom {
   margin-bottom: 10px;
@@ -231,102 +185,142 @@ width: 100%;
 }
 
 
-/* ===============Fullstack===============   */
+/* -----------FULLSTACK ----------------- */
 .fullstack-section {
-    background-color: #74dde8;
-    width: 100%;
-    
-    padding-top: 50px;
-    padding: 50px;
-    text-align: center;
+  background-color: #74dde8;
+  width: 100%;
+  text-align: center;
 }
 
 .fs-h2 {
-    color:White;
+  color: White;
 }
 
 .fs-h4 {
-    color: white;
+  color: white;
+  font-size: 1.5rem;
 }
 
 h5 {
-    color: white;
-    padding-top: 10px
+  color: white;
+  padding-top: 10px;
 }
 
 hr {
-    width: 80%;
+  width: 80%;
 }
 
 .fs-logo {
-    padding: 20px 10px;
+  padding: 20px 10px;
 }
+
 
 /* ===============Contact===============   */
 .contact-section {
-    background-color: white;
-    width: 100%;
-    padding-top: 40px;
-    text-align: center;
+  background-color: white;
+  width: 100%;
+  text-align: center;
 }
 
 .contact-form {
-    background-color: white ;
-    margin: 0px auto;
-    height: 700px;
-    width: 800px;
-    padding: 0px;
+  background-color: white;
 }
 
 .top-contact {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  
-  .middle-contact {
-      margin-bottom: -1px;
-      border-radius: 0;
-      border-radius: 0;
-    }
-  
-  .bottom-contact {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
 
-  .contact-text {
-    font-family: Clicker Script;
-    text-align: center;
-    font-size: 4rem;
-  }
+.middle-contact {
+  margin-bottom: -1px;
+  border-radius: 0;
+  border-radius: 0;
+}
 
-  .email-add {
-      text-align: center;
-      font-size: 14px;
-  }
+.bottom-contact {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
 
+.contact-text {
+  font-family: Clicker Script;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.email-add {
+    color: black;
+  text-align: center;
+  font-size: 14px;
+}
 
 /* ===============footer===============   */
 .footer-section {
-    background-color: #343a40;
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    padding-top: 20px;
-    color: white;
+  background-color: #343a40;
+  width: 100%;
+  
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+.footer-text {
+  font-size: 2rem;
 }
 
 .gototopbtn {
-    color: black;
-    position: fixed;
-    bottom: 40px;
-    right: 50px;
-    text-decoration: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
 
-.gototopbtn:hover {
-    color: black;
-    text-decoration: none;
+/* 
+@media only screen and (max-width:1199px) {
+  
+}
+
+@media only screen and (max-width:991px) {
+  
+}
+
+@media only screen and (max-width:757px) {
+  
+}
+
+@media only screen and (max-width:575px) {
+  
+}
+
+@media only screen and (max-width:375px) {
+  
+} */
+
+@media only screen and (max-width:600px) {
+  .section-header {
+    font-size: 3rem;
+  }
+
+  .rounded-circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .fs-h4 {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .contact-text {
+    font-size: 2rem;
+  }
+
+  .footer-text {
+    font-size: 1.5rem;
+  }
 }
