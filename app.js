@@ -1,15 +1,21 @@
 const express = require("express");
 
+
 const app = express();
 
 app.use(express.static("public"));
 app.use(express.static("public/images"));
 app.use(express.static("public/images/branding"));
 app.use(express.static('public/fonts'));
+app.use(express.static('/main'));
 
 app.get("/", function(req, res){
     res.sendFile(__dirname + "/index.html");
 });
+
+
+
+
 
 
 app.listen(process.env.PORT || 3000, function(){
