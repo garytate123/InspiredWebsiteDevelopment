@@ -276,6 +276,9 @@ hr {
   #carouselExampleCaptions {
     display: none;
   }
+  .mobile-btn {
+    align-items: center;
+  }
 }
 @media only screen and (min-width: 601px) {
   .mobile {
