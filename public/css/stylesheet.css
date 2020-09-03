@@ -15,7 +15,6 @@ font-family: 'Ubuntu', sans-serif; */
 9. Media queries
 ==Site index==============================*/
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -54,7 +53,6 @@ hr {
   width: 80%;
 }
 
-
 /*==1. NAVBAR==============================*/
 .navbar {
   margin: 0px;
@@ -77,13 +75,11 @@ hr {
   font-size: 16px;
 }
 
-
 /*==2. Intro Section Carousel==============================*/
 .carousel-indicators {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-
 
 /*==3. How We work==============================*/
 /* Center align the text within the three columns below the carousel */
@@ -104,7 +100,10 @@ hr {
 .how-we-work-headings {
   padding-top: 15px;
 }
-
+.how-we-work-img {
+  width: 200px;
+  height: 200px;
+}
 
 /*==4. Services and Prices==============================*/
 .s-p-section {
@@ -121,7 +120,6 @@ hr {
 .display-4 {
   color: #343a40;
 }
-
 
 /*==5. Newsletter==============================*/
 .newsletter-section {
@@ -162,7 +160,6 @@ hr {
   border-top-right-radius: 0;
 }
 
-
 /*==6. FULLSTCK==============================*/
 .fullstack-section {
   background-color: #74dde8;
@@ -186,7 +183,6 @@ hr {
 .fs-logo {
   padding: 20px 10px;
 }
-
 
 /*==7. Contact==============================*/
 .contact-section {
@@ -223,7 +219,6 @@ hr {
   font-size: 14px;
 }
 
-
 /*==8. Footer==============================*/
 .footer-section {
   background-color: #343a40;
@@ -241,7 +236,6 @@ hr {
   bottom: 0px;
   right: 0px;
 }
-
 
 /*==Media queries==============================*/
 @media only screen and (max-width: 601px) {
@@ -316,5 +310,3 @@ hr {
   border-radius: 8px;
   cursor: pointer;
 }
-
-
