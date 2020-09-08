@@ -3,10 +3,13 @@ const express = require("express");
 const app = express();
 
 app.use(express.static("public"));
+app.use(express.static("public/Page Examples/1 Page/"));
+
 
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
+
 
 app.get("*", function (req, res, next) {
   res.send(
